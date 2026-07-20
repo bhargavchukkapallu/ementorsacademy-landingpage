@@ -7,7 +7,7 @@ class AppHeader extends HTMLElement {
             <!-- School Logo -->
             <div class="col-7 col-md-6 d-flex align-items-center text-start gap-3">
               <a href="index.html" class="logo-link">
-                <img id="academy-logo" src="logo.jpeg" alt="e-mentor's Academy Logo" class="brand-logo-img">
+                <img id="academy-logo" src="logo.png" alt="e-mentor's Academy Logo" class="brand-logo-img">
               </a>
               <div>
                 <a href="index.html" class="director-name text-decoration-none">e-mentor's Academy</a>

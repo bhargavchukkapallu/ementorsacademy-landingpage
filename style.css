@@ -161,6 +161,7 @@ header {
   width: 80%;
   max-width: 320px;
   border-radius: 50%;
+  background-color: #ffffff;
   border: 8px solid #ffffff;
   box-shadow: var(--shadow-lg);
   aspect-ratio: 1/1;
@@ -1252,6 +1253,7 @@ header {
 .footer-link-hover {
   transition: color 0.2s ease-in-out;
 }
+
 .footer-link-hover:hover {
   color: var(--primary-purple) !important;
   text-decoration: underline !important;
@@ -1265,7 +1267,8 @@ header {
 
 .privacy-sidebar {
   position: sticky;
-  top: 110px; /* Offset to clear sticky header */
+  top: 110px;
+  /* Offset to clear sticky header */
   z-index: 10;
 }
 
@@ -1324,7 +1327,8 @@ header {
 }
 
 .privacy-section-anchor {
-  scroll-margin-top: 110px; /* Offset for smooth scroll top position */
+  scroll-margin-top: 110px;
+  /* Offset for smooth scroll top position */
 }
 
 .privacy-card-title {
@@ -1384,18 +1388,18 @@ header {
     position: static;
     margin-bottom: 2rem;
   }
-  
+
   .privacy-nav-list {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 0.5rem;
   }
-  
+
   .privacy-nav-link {
     background-color: var(--light-purple);
     color: var(--primary-purple);
   }
-  
+
   .privacy-nav-link:hover,
   .privacy-nav-link.active {
     background-color: var(--primary-purple);
